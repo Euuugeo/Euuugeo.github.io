@@ -23,7 +23,7 @@ repository               : "Euuugeo/Euuugeo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "eugeo.jpg"
   name             : "Eugeo Chen"
   pronouns         : # example: "she/her"  
   bio              : "Software engineering student exploring LLMs, speech recognition, and medical image analysis"
@@ -92,7 +92,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   : "profile.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "eugeo.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -143,7 +143,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "profile.jpg" # Social media default site image
+og_image                 : "eugeo.jpg" # Social media default site image
 og_description           : "Academic portfolio of Eugeo Chen" # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
