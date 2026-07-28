@@ -4,6 +4,9 @@ excerpt: "Combining CBT with Qwen2.5-7B to create professional and personalized 
 collection: portfolio
 permalink: /portfolio/cbt-llm/
 date: 2025-08-01
+preview_images:
+  - /images/projects/cbt-architecture.png
+  - /images/projects/cbt-app.png
 ---
 
 ## Overview

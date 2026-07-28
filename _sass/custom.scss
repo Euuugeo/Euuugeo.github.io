@@ -172,6 +172,81 @@ html[data-theme="dark"] .archive__item {
   color: var(--global-masthead-link-color);
 }
 
+.project-index {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.7rem;
+}
+
+.project-index__card {
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.9rem;
+  background: color-mix(in srgb, var(--global-bg-color) 94%, white);
+  box-shadow: 0 10px 30px rgba(16, 42, 67, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+html[data-theme="dark"] .project-index__card {
+  background: color-mix(in srgb, var(--global-bg-color) 88%, #20384c);
+}
+
+.project-index__card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--global-base-color) 55%, var(--global-border-color));
+  box-shadow: 0 16px 36px rgba(16, 42, 67, 0.11);
+}
+
+.project-index__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  padding: 0;
+  background: var(--global-border-color);
+  text-decoration: none !important;
+}
+
+.project-index__gallery img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  margin: 0;
+  object-fit: contain;
+  background: #fff;
+  transition: opacity 0.2s ease, transform 0.25s ease;
+}
+
+.project-index__gallery:hover img {
+  opacity: 0.96;
+  transform: scale(1.012);
+}
+
+.project-index__body {
+  padding: 1.25rem 1.4rem 1.4rem;
+}
+
+.project-index__body h2 {
+  margin: 0 0 0.55rem;
+  padding: 0;
+  border: 0;
+}
+
+.project-index__body h2 a {
+  color: var(--global-masthead-link-color);
+  text-decoration: none;
+}
+
+.project-index__body p {
+  margin: 0 0 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+.project-index__link {
+  font-size: 0.9rem;
+  font-weight: 650;
+  text-decoration: none !important;
+}
+
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -243,6 +318,15 @@ blockquote {
 }
 
 @media (max-width: 42em) {
+  .project-index__gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .project-index__gallery img {
+    height: auto;
+    max-height: 320px;
+  }
+
   .project-gallery {
     grid-template-columns: 1fr;
   }

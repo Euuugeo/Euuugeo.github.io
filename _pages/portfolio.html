@@ -9,6 +9,22 @@ author_profile: true
 
 <p>I build end-to-end systems that connect models, data, and software engineering. My work spans large language models, speech recognition, and medical image analysis.</p>
 
-{% for post in site.portfolio reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="project-index">
+  {% for post in site.portfolio reversed %}
+    <article class="project-index__card">
+      {% if post.preview_images %}
+        <a class="project-index__gallery" href="{{ base_path }}{{ post.url }}" aria-label="View {{ post.title }}">
+          {% for image in post.preview_images %}
+            <img src="{{ image }}" alt="{{ post.title }} preview {{ forloop.index }}" loading="lazy">
+          {% endfor %}
+        </a>
+      {% endif %}
+
+      <div class="project-index__body">
+        <h2><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+        <a class="project-index__link" href="{{ base_path }}{{ post.url }}">View project <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+  {% endfor %}
+</div>

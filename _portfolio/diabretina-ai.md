@@ -4,6 +4,9 @@ excerpt: "A platform for diabetic retinopathy lesion segmentation, assisted anal
 collection: portfolio
 permalink: /portfolio/diabretina-ai/
 date: 2025-06-01
+preview_images:
+  - /images/projects/diabretina-analysis.png
+  - /images/projects/diabretina-report.png
 ---
 
 ## Overview
