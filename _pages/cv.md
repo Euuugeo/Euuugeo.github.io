@@ -1,74 +1,76 @@
 ---
 layout: archive
-title: "简历"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 ---
 
-## 教育经历
+## Education
 
-### 中国科学技术大学
+### University of Science and Technology of China
 
-软件学院，软件工程硕士（特色化创新试点班，推免拟录取）<br>
-预计 2026.09 入学
+M.Eng. in Software Engineering, Specialized Innovation Program<br>
+Expected enrollment: September 2026
 
-### 同济大学
+### Tongji University
 
-计算机科学与技术学院，软件工程本科<br>
-2022.08 - 2026.06
+B.Eng. in Software Engineering, College of Computer Science and Technology<br>
+August 2022 - June 2026
 
-- 本科平均绩点：4.68 / 5.00
-- 英语：CET-4 576，CET-6 509
-- 主要课程：线性代数、高级语言程序设计、数据结构、软件工程、离散数学、语音识别
+- GPA: 4.68 / 5.00
+- English proficiency: CET-4 576, CET-6 509
+- Selected coursework: Linear Algebra, Advanced Programming, Data Structures, Software Engineering, Discrete Mathematics, and Speech Recognition
 
-## 科研与项目经历
+## Research and Project Experience
 
-### 多人格情感支持大模型课题
+### Multi-Persona LLM for Emotional Support
 
-**核心技术成员** · 2024.11 - 2025.08
+**Core Technical Contributor** · November 2024 - August 2025
 
-- 融合认知行为疗法（CBT）与大语言模型，为心理亚健康人群构建情感支持系统。
-- 建设 2,000+ 条多人格 CBT-QA 数据集，使回复遵循“共情 - 认知重构 - 行为建议”的 CBT 逻辑。
-- 基于 Qwen2.5-7B 使用 LoRA 微调，实现三种人格化角色。
-- 优化推理流程，将单次延迟控制在 500 ms 以内，并改善 BLEU-4、ROUGE-L 等指标。
+- Combined cognitive behavioral therapy (CBT) with large language models to build an emotional-support system.
+- Helped create a dataset of more than 2,000 multi-persona CBT question-answer pairs.
+- Structured responses around empathy, cognitive reframing, and actionable behavioral suggestions.
+- Fine-tuned Qwen2.5-7B with LoRA to support analytical, humorous, and philosophical personas.
+- Optimized the inference pipeline to keep single-response latency below 500 ms.
+- Evaluated response quality using BLEU-4, ROUGE-L, and related metrics.
 
-### 鄂北方言语音识别课题
+### Northern Hubei Dialect Speech Recognition
 
-**项目成员** · 2024.07 - 2024.09
+**Project Contributor** · July 2024 - September 2024
 
-- 负责方言数据收集平台开发，参与建设 10,000+ 条语料的数据集。
-- 基于 Whisper 开展方言语音识别实验。
-- 通过音调变换、加噪等数据增强方法改善模型鲁棒性。
+- Developed a dialect data collection platform and contributed to a corpus of more than 10,000 utterances.
+- Conducted dialect speech recognition experiments with Whisper.
+- Evaluated pitch shifting and noise injection for improving model robustness.
 
 ### DiabRetina AI
 
-**课程综合项目** · 2025
+**Comprehensive Course Project** · 2025
 
-- 构建糖尿病视网膜病变病灶分割与辅助诊断平台。
-- 覆盖模型训练、图像推理、病灶可视化、Web 应用与 PDF 报告生成。
-- 项目代码：[Euuugeo/Diabetic-Retinopathy](https://github.com/Euuugeo/Diabetic-Retinopathy)
+- Built a platform for diabetic retinopathy lesion segmentation and AI-assisted analysis.
+- Covered model training, image inference, lesion visualization, web development, and PDF report generation.
+- Repository: [Euuugeo/Diabetic-Retinopathy](https://github.com/Euuugeo/Diabetic-Retinopathy)
 
-## 荣誉与竞赛
+## Honors and Competitions
 
-- 2024 年美国大学生数学建模竞赛 Honorable Mention
-- 第十五届全国大学生市场调查与分析大赛全国三等奖、上海市一等奖
-- 第十六届全国大学生数学竞赛（非数学 A 类）二等奖
-- 第十六届上海市大学生数学竞赛（非数学 A 类）二等奖
-- 第十七届上海市大学生计算机应用能力大赛三等奖
-- 第十六届中国大学生服务外包创新创业大赛东部区域赛三等奖
-- 同济大学优秀学生
-- 同济大学校级二等奖学金 2 次、三等奖学金、社会活动奖学金
+- Honorable Mention, 2024 Mathematical Contest in Modeling
+- National Third Prize and Shanghai First Prize, 15th National Market Survey and Analysis Competition
+- Second Prize, 16th National College Student Mathematics Competition, Non-Mathematics Category A
+- Second Prize, 16th Shanghai College Student Mathematics Competition, Non-Mathematics Category A
+- Third Prize, 17th Shanghai College Student Computer Application Ability Competition
+- Eastern Regional Third Prize, 16th China College Students Service Outsourcing Innovation and Entrepreneurship Competition
+- Tongji University Outstanding Student
+- Tongji University Second-Class Scholarship (twice), Third-Class Scholarship, and Social Activities Scholarship
 
-## 校园与社会活动
+## Leadership and Service
 
-- 济勤学堂朋辈导师
-- 计算机科学与技术学院党支部“同舟助飞”项目负责人
-- 参与筹办同济大学民族嘉年华、冬季跑志愿服务及回母校宣讲
+- Peer mentor at Jiqin Academy
+- Project lead for the College of Computer Science and Technology's “Tongzhou Zhufei” peer-support initiative
+- Volunteer for college ceremonies, Tongji University Cultural Carnival, winter running events, and high-school outreach
 
-## 技术关键词
+## Technical Focus
 
-Python · PyTorch · 大语言模型 · LoRA · Qwen · Whisper · 语音识别 · 数据增强 · React · Flask · 医学图像分割
+Python · PyTorch · Large Language Models · LoRA · Qwen · Whisper · Speech Recognition · Data Augmentation · React · Flask · Medical Image Segmentation
 
-## 联系方式
+## Contact
 
 [2250944@tongji.edu.cn](mailto:2250944@tongji.edu.cn) · [GitHub](https://github.com/Euuugeo)

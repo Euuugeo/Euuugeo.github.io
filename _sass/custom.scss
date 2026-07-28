@@ -1,0 +1,173 @@
+/* Refined academic portfolio theme
+   Palette: ink navy, warm paper, muted teal, and slate. */
+
+:root {
+  --global-base-color: #167d83;
+  --global-bg-color: #f8f7f2;
+  --global-footer-bg-color: #102a43;
+  --global-border-color: #d8e1e8;
+  --global-dark-border-color: #c5d0d9;
+  --global-code-background-color: #eef3f5;
+  --global-code-text-color: #153e52;
+  --global-fig-caption-color: #60758a;
+  --global-link-color: #126e73;
+  --global-link-color-hover: #0b5155;
+  --global-link-color-visited: #315f73;
+  --global-masthead-link-color: #17324d;
+  --global-masthead-link-color-hover: #167d83;
+  --global-text-color: #243b53;
+  --global-text-color-light: #61758a;
+  --global-thead-color: #edf2f4;
+}
+
+html[data-theme="dark"] {
+  --global-base-color: #72c7c8;
+  --global-bg-color: #0f1d2b;
+  --global-footer-bg-color: #09131d;
+  --global-border-color: #294257;
+  --global-dark-border-color: #38546a;
+  --global-code-background-color: #182b3d;
+  --global-code-text-color: #b8e1e2;
+  --global-fig-caption-color: #90a8ba;
+  --global-link-color: #76ced0;
+  --global-link-color-hover: #a7e3e4;
+  --global-link-color-visited: #91b9c8;
+  --global-masthead-link-color: #e7eef4;
+  --global-masthead-link-color-hover: #72c7c8;
+  --global-text-color: #dce6ee;
+  --global-text-color-light: #9fb2c2;
+  --global-thead-color: #172a3b;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 85% 10%, rgba(22, 125, 131, 0.055), transparent 28rem);
+  font-family: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.68;
+}
+
+.masthead {
+  background: color-mix(in srgb, var(--global-bg-color) 92%, transparent);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 1px 16px rgba(16, 42, 67, 0.06);
+}
+
+.masthead::after {
+  background: color-mix(in srgb, var(--global-border-color) 70%, transparent);
+}
+
+.masthead__menu-item--lg a {
+  color: var(--global-masthead-link-color);
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.greedy-nav a {
+  font-weight: 600;
+}
+
+.page__title {
+  color: var(--global-masthead-link-color);
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+
+.page__content h2,
+.archive h2 {
+  color: var(--global-masthead-link-color);
+  margin-top: 2.4em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--global-border-color);
+  letter-spacing: -0.025em;
+}
+
+.page__content h3,
+.archive h3 {
+  color: var(--global-masthead-link-color);
+  letter-spacing: -0.015em;
+}
+
+.page__content a,
+.archive a {
+  text-decoration-color: color-mix(in srgb, var(--global-base-color) 42%, transparent);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 0.08em;
+}
+
+.author__avatar img {
+  border: 0;
+  padding: 0;
+  box-shadow: 0 14px 35px rgba(16, 42, 67, 0.16);
+}
+
+.author__name {
+  color: var(--global-masthead-link-color);
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.author__bio {
+  color: var(--global-text-color-light);
+}
+
+.author__urls a {
+  border-radius: 0.45rem;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.author__urls a:hover {
+  color: var(--global-base-color);
+  text-decoration: none;
+  transform: translateX(3px);
+}
+
+.archive__item {
+  margin: 1.25rem 0;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.85rem;
+  background: color-mix(in srgb, var(--global-bg-color) 94%, white);
+  box-shadow: 0 8px 26px rgba(16, 42, 67, 0.055);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+html[data-theme="dark"] .archive__item {
+  background: color-mix(in srgb, var(--global-bg-color) 88%, #20384c);
+}
+
+.archive__item:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--global-base-color) 55%, var(--global-border-color));
+  box-shadow: 0 14px 34px rgba(16, 42, 67, 0.1);
+}
+
+.archive__item-title {
+  margin-top: 0;
+  color: var(--global-masthead-link-color);
+}
+
+blockquote {
+  border-left-color: var(--global-base-color);
+  background: color-mix(in srgb, var(--global-base-color) 7%, transparent);
+  border-radius: 0 0.55rem 0.55rem 0;
+  padding: 0.9rem 1.2rem;
+}
+
+.page__footer {
+  background: var(--global-footer-bg-color);
+  color: #d8e5ef;
+}
+
+.page__footer a,
+.page__footer-copyright {
+  color: #d8e5ef;
+}
+
+@media (max-width: 63.9em) {
+  .author__avatar img {
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+  }
+}

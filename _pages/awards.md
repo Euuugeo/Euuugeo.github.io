@@ -1,33 +1,32 @@
 ---
 layout: archive
-title: "荣誉与竞赛"
+title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---
 
-## 国家级与国际竞赛
+## International and National Competitions
 
-- **Honorable Mention**，美国大学生数学建模竞赛，2024
-- **全国三等奖**，第十五届全国大学生市场调查与分析大赛
+- **Honorable Mention**, Mathematical Contest in Modeling, 2024
+- **National Third Prize**, 15th National Market Survey and Analysis Competition
 
-## 省市级竞赛
+## Provincial and Regional Competitions
 
-- **上海市一等奖**，第十五届全国大学生市场调查与分析大赛
-- **二等奖**，第十六届全国大学生数学竞赛（非数学 A 类）
-- **二等奖**，第十六届上海市大学生数学竞赛（非数学 A 类）
-- **三等奖**，第十七届上海市大学生计算机应用能力大赛
-- **东部区域赛三等奖**，第十六届中国大学生服务外包创新创业大赛
+- **Shanghai First Prize**, 15th National Market Survey and Analysis Competition
+- **Second Prize**, 16th National College Student Mathematics Competition, Non-Mathematics Category A
+- **Second Prize**, 16th Shanghai College Student Mathematics Competition, Non-Mathematics Category A
+- **Third Prize**, 17th Shanghai College Student Computer Application Ability Competition
+- **Eastern Regional Third Prize**, 16th China College Students Service Outsourcing Innovation and Entrepreneurship Competition
 
-## 校级荣誉
+## University Honors
 
-- 同济大学优秀学生
-- 同济大学校级二等奖学金 2 次
-- 同济大学校级三等奖学金
-- 同济大学社会活动奖学金
+- Tongji University Outstanding Student
+- Tongji University Second-Class Scholarship, twice
+- Tongji University Third-Class Scholarship
+- Tongji University Social Activities Scholarship
 
-## 服务与领导力
+## Leadership and Service
 
-- 济勤学堂朋辈导师
-- 计算机科学与技术学院党支部“同舟助飞”项目负责人
-- 计算机科学与技术学院成立仪式志愿者
-- 同济大学民族嘉年华、冬季跑及回母校宣讲志愿者
+- Peer mentor at Jiqin Academy
+- Project lead for the College of Computer Science and Technology's “Tongzhou Zhufei” peer-support initiative
+- Volunteer for college ceremonies, Tongji University Cultural Carnival, winter running events, and high-school outreach

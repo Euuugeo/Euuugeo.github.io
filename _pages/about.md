@@ -1,60 +1,60 @@
 ---
 permalink: /
-title: "你好，我是谌乐俊杰"
+title: "Hello, I'm Lejunjie Chen"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-我是一名软件工程学生，目前就读于[同济大学计算机科学与技术学院](https://cs.tongji.edu.cn/)，将于 2026 年进入[中国科学技术大学软件学院](https://sse.ustc.edu.cn/)攻读软件工程硕士（特色化创新试点班）。
+I am a software engineering student at [Tongji University](https://cs.tongji.edu.cn/). In 2026, I will join the [School of Software Engineering at the University of Science and Technology of China](https://sse.ustc.edu.cn/) as a master's student in its Specialized Innovation Program.
 
-我的兴趣集中在**大语言模型、语音识别、计算机视觉与智能软件系统**。我喜欢从真实需求出发，将数据构建、模型训练、系统开发和效果评估连接成完整的解决方案。
+My interests span **large language models, speech recognition, computer vision, and intelligent software systems**. I enjoy building complete solutions that connect data collection, model development, system engineering, and rigorous evaluation.
 
-## 近期关注
+## Research Interests
 
-- 大语言模型的高效微调、推理优化与人格化交互
-- 情感支持场景中的安全、专业和可解释 AI
-- 低资源语音识别与数据增强
-- 医学图像分割和 AI 辅助诊断
+- Efficient fine-tuning, inference optimization, and personalized interaction for large language models
+- Safe, professional, and interpretable AI for emotional support
+- Low-resource speech recognition and data augmentation
+- Medical image segmentation and AI-assisted analysis
 
-## 教育经历
+## Education
 
-**中国科学技术大学 · 软件学院**<br>
-软件工程硕士，特色化创新试点班（推免拟录取）<br>
-预计 2026.09 入学
+**University of Science and Technology of China**<br>
+M.Eng. in Software Engineering, Specialized Innovation Program<br>
+Expected enrollment: September 2026
 
-**同济大学 · 计算机科学与技术学院**<br>
-软件工程本科<br>
-2022.08 - 2026.06
+**Tongji University**<br>
+B.Eng. in Software Engineering, College of Computer Science and Technology<br>
+August 2022 - June 2026
 
-主修课程包括线性代数、高级语言程序设计、数据结构、软件工程、离散数学和语音识别等。英语水平：CET-4 576，CET-6 509。
+Selected coursework includes Linear Algebra, Advanced Programming, Data Structures, Software Engineering, Discrete Mathematics, and Speech Recognition. English proficiency: CET-4 576 and CET-6 509.
 
-## 精选项目
+## Selected Projects
 
-### 多人格情感支持大模型
+### Multi-Persona LLM for Emotional Support
 
-将认知行为疗法（CBT）与大语言模型结合，构建面向心理亚健康人群的情感支持系统。参与建设 2,000+ 条多人格 CBT-QA 数据，基于 Qwen2.5-7B 和 LoRA 实现理性分析、幽默风趣、哲思温柔三种人格，并优化推理流程至单次延迟低于 500 ms。
+An emotional-support system that combines cognitive behavioral therapy (CBT) with large language models. I helped build a 2,000+ item multi-persona CBT-QA dataset, fine-tuned Qwen2.5-7B with LoRA for three distinct personas, and optimized inference latency to under 500 ms.
 
-[查看项目详情](/portfolio/cbt-llm/)
+[Explore the project](/portfolio/cbt-llm/)
 
-### 鄂北方言语音识别
+### Northern Hubei Dialect Speech Recognition
 
-开发方言数据收集平台，参与建设 10,000+ 条语料的数据集；围绕 Whisper 开展识别实验，验证音调变换和加噪等数据增强方法对低资源方言识别鲁棒性的改善。
+A low-resource ASR project built around Whisper. I developed the dialect data collection platform, contributed to a dataset of more than 10,000 utterances, and evaluated pitch shifting and noise injection as robustness-oriented augmentation strategies.
 
-[查看项目详情](/portfolio/dialect-asr/)
+[Explore the project](/portfolio/dialect-asr/)
 
 ### DiabRetina AI
 
-面向糖尿病视网膜病变的眼底图像病灶分割与辅助诊断平台，包含 PyTorch 模型训练、Flask 推理服务、React 前端和 PDF 诊断报告生成。
+An AI-assisted platform for diabetic retinopathy lesion segmentation, visualization, and report generation, combining PyTorch training code, a Flask inference service, and a React interface.
 
-[项目详情](/portfolio/diabretina-ai/) · [GitHub](https://github.com/Euuugeo/Diabetic-Retinopathy)
+[Explore the project](/portfolio/diabretina-ai/) · [View on GitHub](https://github.com/Euuugeo/Diabetic-Retinopathy)
 
-## 联系我
+## Get in Touch
 
-欢迎就科研、项目合作或技术交流与我联系：
+I am always happy to discuss research, engineering projects, and potential collaborations.
 
-- 邮箱：[2250944@tongji.edu.cn](mailto:2250944@tongji.edu.cn)
-- GitHub：[@Euuugeo](https://github.com/Euuugeo)
+- Email: [2250944@tongji.edu.cn](mailto:2250944@tongji.edu.cn)
+- GitHub: [@Euuugeo](https://github.com/Euuugeo)
 
-<small>本主页仅展示适合公开的信息。手机号、生日等个人敏感信息未从简历同步。</small>
+<small>This website intentionally excludes private information such as my phone number, birthday, and home address.</small>

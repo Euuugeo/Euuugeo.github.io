@@ -1,43 +1,43 @@
-# 谌乐俊杰的个人主页
+# Lejunjie Chen's Academic Portfolio
 
-基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 构建的个人学术主页，计划部署至：
+A personal academic website built with [Academic Pages](https://github.com/academicpages/academicpages.github.io) and published at:
 
 <https://Euuugeo.github.io>
 
-## 内容
+## Content
 
-- 个人简介与研究兴趣
-- 教育经历
-- 科研及工程项目
-- 荣誉与竞赛
-- Markdown 版简历
+- Biography and research interests
+- Education
+- Research and engineering projects
+- Honors and competitions
+- Web-based curriculum vitae
 
-## 本地预览
+## Local Preview
 
-项目使用 Jekyll。安装 Ruby、Bundler 和依赖后运行：
+Install Ruby, Bundler, and the project dependencies, then run:
 
 ```bash
 bundle install
 bundle exec jekyll serve -l -H localhost
 ```
 
-然后访问 <http://localhost:4000>。
+Open <http://localhost:4000>.
 
-也可以使用 Docker：
+Alternatively, use Docker:
 
 ```bash
 docker compose up
 ```
 
-## 更新内容
+## Editing
 
-- 站点基本信息：`_config.yml`
-- 顶部导航：`_data/navigation.yml`
-- 首页：`_pages/about.md`
-- 简历：`_pages/cv.md`
-- 荣誉：`_pages/awards.md`
-- 项目：`_portfolio/`
+- Site metadata: `_config.yml`
+- Navigation: `_data/navigation.yml`
+- Homepage: `_pages/about.md`
+- CV: `_pages/cv.md`
+- Honors: `_pages/awards.md`
+- Projects: `_portfolio/`
 
-## 隐私
+## Privacy
 
-公开站点不包含简历中的手机号、生日、政治面貌等敏感字段。提交变更前请再次检查新增文件是否适合公开。
+The public website intentionally excludes private details from the original resume, including phone number, birthday, political affiliation, and home address.

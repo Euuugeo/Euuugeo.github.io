@@ -1,24 +1,24 @@
 ---
 title: "DiabRetina AI"
-excerpt: "糖尿病视网膜病变病灶分割、辅助诊断与报告生成平台。"
+excerpt: "A platform for diabetic retinopathy lesion segmentation, assisted analysis, and report generation."
 collection: portfolio
 permalink: /portfolio/diabretina-ai/
 date: 2025-06-01
 ---
 
-## 项目概述
+## Overview
 
-DiabRetina AI 是面向糖尿病视网膜病变（DR）的眼底图像分析平台，可分割并可视化微动脉瘤、出血、硬性渗出和软性渗出四类病灶。
+DiabRetina AI analyzes fundus images for diabetic retinopathy. It segments and visualizes four lesion types: microaneurysms, hemorrhages, hard exudates, and soft exudates.
 
-## 系统组成
+## System
 
-- 使用 PyTorch 实现多种医学图像分割网络的训练、评估和预测。
-- 通过 Flask 提供图像推理、病灶计数和历史记录 API。
-- 使用 React 和 Material UI 构建诊断界面。
-- 结合大模型生成辅助诊断文字，并使用 ReportLab 输出 PDF 报告。
+- Implements multiple medical image segmentation networks and training workflows in PyTorch.
+- Provides image inference, lesion counting, and history APIs through Flask.
+- Uses React and Material UI for the diagnostic interface.
+- Integrates an LLM for assisted analysis and ReportLab for PDF generation.
 
-## 技术关键词
+## Technologies
 
-`PyTorch` `Medical Image Segmentation` `Flask` `React` `OpenCV` `LLM`
+`PyTorch` `Medical Image Segmentation` `Flask` `React` `OpenCV` `Large Language Models`
 
-[查看 GitHub 仓库](https://github.com/Euuugeo/Diabetic-Retinopathy)
+[View the GitHub repository](https://github.com/Euuugeo/Diabetic-Retinopathy)
