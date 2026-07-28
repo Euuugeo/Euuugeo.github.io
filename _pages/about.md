@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Eugeo Chen"
+title: "Hello, I'm Richard Chen"
 author_profile: true
 redirect_from:
   - /about/
@@ -11,12 +11,12 @@ I am a software engineering student at [Tongji University](https://cs.tongji.edu
 
 My interests span **large language models, speech recognition, computer vision, and intelligent software systems**. I enjoy building complete solutions that connect data collection, model development, system engineering, and rigorous evaluation.
 
-## Research Interests
+## Current Focus
 
-- Efficient fine-tuning, inference optimization, and personalized interaction for large language models
-- Safe, professional, and interpretable AI for emotional support
-- Low-resource speech recognition and data augmentation
-- Medical image segmentation and AI-assisted analysis
+- Developing domain-specific large language models and intelligent agents
+- Exploring AI4S and multimodal learning methods
+- Building AI systems for affective computing and real-world applications
+- Improving end-to-end model training, deployment, and application development
 
 ## Education
 

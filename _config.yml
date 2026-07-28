@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Customized in _sass/custom.scss
-title                    : "Eugeo Chen"
+title                    : "Richard Chen"
 title_separator          : "-"
-name                     : &name "Eugeo Chen"
-description              : &description "Eugeo Chen's academic portfolio: software engineering, artificial intelligence, and large language models"
+name                     : &name "Richard Chen"
+description              : &description "Richard Chen's academic portfolio: large language models, AI for Science, and affective computing"
 url                      : https://Euuugeo.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,11 +24,11 @@ repository               : "Euuugeo/Euuugeo.github.io"
 author:
   # Biographic information
   avatar           : "eugeo.jpg"
-  name             : "Eugeo Chen"
+  name             : "Richard Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Software engineering student exploring LLMs, speech recognition, and medical image analysis"
-  location         : "Shanghai / Hefei, China"
-  employer         : "Tongji University → USTC"
+  bio              : "Large Language Models, AI for Science, and Affective Computing"
+  location         : "Shanghai, China"
+  employer         : "USTC"
   uri              : # URL
   email            : "2250944@tongji.edu.cn"
 
@@ -144,12 +144,12 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "eugeo.jpg" # Social media default site image
-og_description           : "Academic portfolio of Eugeo Chen" # Social media default site image description
+og_description           : "Academic portfolio of Richard Chen" # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person
-  name                   : "Eugeo Chen"
+  name                   : "Richard Chen"
   links:
     - "https://github.com/Euuugeo"
 

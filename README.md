@@ -1,4 +1,4 @@
-# Eugeo Chen's Academic Portfolio
+# Richard Chen's Academic Portfolio
 
 A personal academic website built with [Academic Pages](https://github.com/academicpages/academicpages.github.io) and published at:
 
