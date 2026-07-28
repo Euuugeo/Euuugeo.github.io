@@ -27,6 +27,8 @@ author_profile: true
 
 ## Leadership and Service
 
+- Head, Community Self-Governance Department, Qidi College
+- Interim Head, Culture and Sports Activities Department, Qidi College
 - Peer mentor at Jiqin Academy
 - Project lead for the College of Computer Science and Technology's “Tongzhou Zhufei” peer-support initiative
 - Volunteer for college ceremonies, Tongji University Cultural Carnival, winter running events, and high-school outreach
