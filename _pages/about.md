@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a software engineering student at [Tongji University](https://cs.tongji.edu.cn/). In 2026, I will join the [School of Software Engineering at the University of Science and Technology of China](https://sse.ustc.edu.cn/) as a master's student in its Specialized Innovation Program.
+I am an undergraduate student in Software Engineering at the [College of Computer Science and Technology, Tongji University](https://cs.tongji.edu.cn/). In 2026, I will join the [School of Software Engineering at the University of Science and Technology of China](https://sse.ustc.edu.cn/) as a master's student in its Specialized Innovation Program and conduct research with the [USTC Data Intelligence Lab](https://di.ustc.edu.cn/_upload/tpl/16/ee/5870/template5870/main.htm).
 
 My work focuses on **building practical, reliable, and human-centered AI systems**. I enjoy developing complete solutions that connect data collection, model training, system engineering, deployment, and rigorous evaluation.
 
