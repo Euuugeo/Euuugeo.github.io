@@ -9,7 +9,7 @@ redirect_from:
 
 I am a software engineering student at [Tongji University](https://cs.tongji.edu.cn/). In 2026, I will join the [School of Software Engineering at the University of Science and Technology of China](https://sse.ustc.edu.cn/) as a master's student in its Specialized Innovation Program.
 
-My interests span **large language models, speech recognition, computer vision, and intelligent software systems**. I enjoy building complete solutions that connect data collection, model development, system engineering, and rigorous evaluation.
+My work focuses on **building practical, reliable, and human-centered AI systems**. I enjoy developing complete solutions that connect data collection, model training, system engineering, deployment, and rigorous evaluation.
 
 ## Current Focus
 
@@ -54,7 +54,7 @@ An AI-assisted platform for diabetic retinopathy lesion segmentation, visualizat
 
 I am always happy to discuss research, engineering projects, and potential collaborations.
 
-- Email: [2250944@tongji.edu.cn](mailto:2250944@tongji.edu.cn)
+- Email: [eugeo1212@gmail.com](mailto:eugeo1212@gmail.com)
 - GitHub: [@Euuugeo](https://github.com/Euuugeo)
 
 <small>This website intentionally excludes private information such as my phone number, birthday, and home address.</small>

@@ -73,4 +73,4 @@ Python · PyTorch · Large Language Models · LoRA · Qwen · Whisper · Speech 
 
 ## Contact
 
-[2250944@tongji.edu.cn](mailto:2250944@tongji.edu.cn) · [GitHub](https://github.com/Euuugeo)
+[eugeo1212@gmail.com](mailto:eugeo1212@gmail.com) · [GitHub](https://github.com/Euuugeo)
