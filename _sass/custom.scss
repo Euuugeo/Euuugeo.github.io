@@ -96,8 +96,13 @@ body {
 }
 
 .author__avatar img {
+  width: 175px;
+  height: 175px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border: 0;
   padding: 0;
+  border-radius: 0.7rem;
   box-shadow: 0 14px 35px rgba(16, 42, 67, 0.16);
 }
 
@@ -168,6 +173,7 @@ blockquote {
   .author__avatar img {
     width: 84px;
     height: 84px;
+    border-radius: 0.5rem;
     object-fit: cover;
   }
 }

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Lejunjie Chen"
+title: "Hello, I'm Eugeo Chen"
 author_profile: true
 redirect_from:
   - /about/
