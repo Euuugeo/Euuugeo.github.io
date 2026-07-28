@@ -10,6 +10,17 @@ date: 2025-08-01
 
 This project explores accessible and scalable emotional support by combining the structured intervention process of cognitive behavioral therapy (CBT) with large language models.
 
+<div class="project-gallery">
+  <figure>
+    <img src="/images/projects/cbt-architecture.png" alt="Architecture for constructing the PersonaCBT-QA dataset and PersonaCBT-LLM">
+    <figcaption>PersonaCBT dataset and model development pipeline.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/projects/cbt-app.png" alt="Mobile emotional-support assistant with three selectable personas">
+    <figcaption>Mobile application with analytical, humorous, and philosophical personas.</figcaption>
+  </figure>
+</div>
+
 ## Contributions
 
 - Served as a core technical contributor across system design, data construction, fine-tuning, and inference optimization.

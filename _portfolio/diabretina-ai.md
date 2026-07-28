@@ -10,6 +10,17 @@ date: 2025-06-01
 
 DiabRetina AI analyzes fundus images for diabetic retinopathy. It segments and visualizes four lesion types: microaneurysms, hemorrhages, hard exudates, and soft exudates.
 
+<div class="project-gallery project-gallery--wide">
+  <figure>
+    <img src="/images/projects/diabretina-analysis.png" alt="DiabRetina AI fundus image lesion analysis interface">
+    <figcaption>Fundus image preprocessing, lesion segmentation, and visualization.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/projects/diabretina-report.png" alt="DiabRetina AI clinical assessment and treatment planning interface">
+    <figcaption>Clinical assessment, severity grading, and AI-assisted reporting workflow.</figcaption>
+  </figure>
+</div>
+
 ## System
 
 - Implements multiple medical image segmentation networks and training workflows in PyTorch.
