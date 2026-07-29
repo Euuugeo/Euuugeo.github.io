@@ -11,6 +11,22 @@ I am an undergraduate student in Software Engineering at the [College of Compute
 
 My work focuses on **building practical, reliable, and human-centered AI systems**. I enjoy developing complete solutions that connect data collection, model training, system engineering, deployment, and rigorous evaluation.
 
+<div class="pixel-runner" aria-hidden="true">
+  <span class="pixel-runner__label">building thoughtful AI, one step at a time</span>
+  <div class="pixel-runner__lane">
+    <div class="pixel-runner__motion">
+      <div class="pixel-runner__sprite">
+        <span class="pixel-runner__head"></span>
+        <span class="pixel-runner__body"></span>
+        <span class="pixel-runner__arm pixel-runner__arm--front"></span>
+        <span class="pixel-runner__arm pixel-runner__arm--back"></span>
+        <span class="pixel-runner__leg pixel-runner__leg--front"></span>
+        <span class="pixel-runner__leg pixel-runner__leg--back"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
 ## 🎯 Current Focus
 
 - Developing domain-specific large language models and intelligent agents
