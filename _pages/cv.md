@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-## Education
+## 📖 Education
 
 ### University of Science and Technology of China
 
@@ -21,7 +21,7 @@ August 2022 - June 2026
 - English proficiency: CET-4 576, CET-6 509
 - Selected coursework: Linear Algebra, Advanced Programming, Data Structures, Software Engineering, Discrete Mathematics, and Speech Recognition
 
-## Research and Project Experience
+## 🔬 Research and Project Experience
 
 ### Multi-Persona LLM for Emotional Support
 
@@ -50,7 +50,7 @@ August 2022 - June 2026
 - Covered model training, image inference, lesion visualization, web development, and PDF report generation.
 - Repository: [Euuugeo/Diabetic-Retinopathy](https://github.com/Euuugeo/Diabetic-Retinopathy)
 
-## Honors and Competitions
+## 🏆 Honors and Competitions
 
 - Tongji University Outstanding Student, Jan 2026
 - Outstanding Student Scholarship, Second Prize, Dec 2025 and Dec 2023
@@ -64,7 +64,7 @@ August 2022 - June 2026
 - Honorable Mention, Mathematical Contest in Modeling, May 2024
 - Second Prize, 9th Tongji University “Mission and Responsibility” Social Practice and Innovation Competition, Dec 2023
 
-## Leadership and Service
+## 🤝 Leadership and Service
 
 - Head, Community Self-Governance Department, Qidi College
 - Interim Head, Culture and Sports Activities Department, Qidi College
@@ -72,10 +72,10 @@ August 2022 - June 2026
 - Project lead for the College of Computer Science and Technology's “Tongzhou Zhufei” peer-support initiative
 - Volunteer for college ceremonies, Tongji University Cultural Carnival, winter running events, and high-school outreach
 
-## Technical Focus
+## 🛠️ Technical Focus
 
 Python · PyTorch · Large Language Models · LoRA · Qwen · Whisper · Speech Recognition · Data Augmentation · React · Flask · Medical Image Segmentation
 
-## Contact
+## ✉️ Contact
 
 [eugeo1212@gmail.com](mailto:eugeo1212@gmail.com) · [GitHub](https://github.com/Euuugeo)

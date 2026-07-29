@@ -9,7 +9,7 @@ preview_images:
   - /images/projects/diabretina-report.png
 ---
 
-## Overview
+## 💡 Overview
 
 DiabRetina AI analyzes fundus images for diabetic retinopathy. It segments and visualizes four lesion types: microaneurysms, hemorrhages, hard exudates, and soft exudates.
 
@@ -24,14 +24,14 @@ DiabRetina AI analyzes fundus images for diabetic retinopathy. It segments and v
   </figure>
 </div>
 
-## System
+## 🧱 System
 
 - Implements multiple medical image segmentation networks and training workflows in PyTorch.
 - Provides image inference, lesion counting, and history APIs through Flask.
 - Uses React and Material UI for the diagnostic interface.
 - Integrates an LLM for assisted analysis and ReportLab for PDF generation.
 
-## Technologies
+## 🛠️ Technologies
 
 `PyTorch` `Medical Image Segmentation` `Flask` `React` `OpenCV` `Large Language Models`
 

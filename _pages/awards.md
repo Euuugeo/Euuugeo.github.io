@@ -5,7 +5,7 @@ permalink: /awards/
 author_profile: true
 ---
 
-## Honors & Scholarships
+## 🌟 Honors & Scholarships
 
 <div class="award-list">
   <div class="award-item">
@@ -35,7 +35,7 @@ author_profile: true
   </div>
 </div>
 
-## Competition Awards
+## 🏆 Competition Awards
 
 <div class="award-list award-list--competitions">
   <div class="award-item">
@@ -75,7 +75,7 @@ author_profile: true
   </div>
 </div>
 
-## Leadership and Service
+## 🤝 Leadership and Service
 
 - Head, Community Self-Governance Department, Qidi College
 - Interim Head, Culture and Sports Activities Department, Qidi College

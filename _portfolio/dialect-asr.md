@@ -6,11 +6,11 @@ permalink: /portfolio/dialect-asr/
 date: 2024-09-01
 ---
 
-## Overview
+## 💡 Overview
 
 This project addresses limited training data and substantial accent variation in the Northern Hubei dialect. We built data collection tooling and evaluated how augmentation strategies affect Whisper-based speech recognition.
 
-## Contributions
+## 🧩 Contributions
 
 - Developed the dialect data collection platform.
 - Contributed to a corpus of more than **10,000 utterances**.
@@ -18,6 +18,6 @@ This project addresses limited training data and substantial accent variation in
 - Applied pitch shifting and noise injection to expand the training data.
 - Analyzed how augmentation affected accuracy and model robustness.
 
-## Technologies
+## 🛠️ Technologies
 
 `Automatic Speech Recognition` `Whisper` `Low-Resource ASR` `Data Augmentation`

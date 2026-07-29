@@ -9,7 +9,7 @@ preview_images:
   - /images/projects/cbt-app.png
 ---
 
-## Overview
+## 💡 Overview
 
 This project explores accessible and scalable emotional support by combining the structured intervention process of cognitive behavioral therapy (CBT) with large language models.
 
@@ -24,7 +24,7 @@ This project explores accessible and scalable emotional support by combining the
   </figure>
 </div>
 
-## Contributions
+## 🧩 Contributions
 
 - Served as a core technical contributor across system design, data construction, fine-tuning, and inference optimization.
 - Helped create a dataset of more than **2,000 multi-persona CBT question-answer pairs**.
@@ -33,7 +33,7 @@ This project explores accessible and scalable emotional support by combining the
 - Optimized single-response inference latency to **under 500 ms**.
 - Evaluated response quality using BLEU-4, ROUGE-L, and related metrics.
 
-## Technologies
+## 🛠️ Technologies
 
 `Large Language Models` `Qwen2.5` `LoRA` `CBT` `Instruction Tuning` `Model Evaluation`
 

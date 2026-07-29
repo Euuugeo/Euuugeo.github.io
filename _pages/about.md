@@ -11,14 +11,14 @@ I am an undergraduate student in Software Engineering at the [College of Compute
 
 My work focuses on **building practical, reliable, and human-centered AI systems**. I enjoy developing complete solutions that connect data collection, model training, system engineering, deployment, and rigorous evaluation.
 
-## Current Focus
+## 🎯 Current Focus
 
 - Developing domain-specific large language models and intelligent agents
 - Exploring AI4S and multimodal learning methods
 - Building AI systems for affective computing and real-world applications
 - Improving end-to-end model training, deployment, and application development
 
-## Education
+## 📖 Education
 
 **University of Science and Technology of China**<br>
 M.Eng. in Software Engineering, Specialized Innovation Program<br>
@@ -30,7 +30,7 @@ August 2022 - June 2026
 
 Selected coursework includes Linear Algebra, Advanced Programming, Data Structures, Software Engineering, Discrete Mathematics, and Speech Recognition. English proficiency: CET-4 576 and CET-6 509.
 
-## Selected Projects
+## 🚀 Selected Projects
 
 ### Multi-Persona LLM for Emotional Support
 
@@ -50,7 +50,7 @@ An AI-assisted platform for diabetic retinopathy lesion segmentation, visualizat
 
 [Explore the project](/portfolio/diabretina-ai/) · [View on GitHub](https://github.com/Euuugeo/Diabetic-Retinopathy)
 
-## Get in Touch
+## ✉️ Get in Touch
 
 I am always happy to discuss research, engineering projects, and potential collaborations.
 
