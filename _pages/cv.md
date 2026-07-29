@@ -52,14 +52,17 @@ August 2022 - June 2026
 
 ## Honors and Competitions
 
-- Honorable Mention, 2024 Mathematical Contest in Modeling
-- National Third Prize and Shanghai First Prize, 15th National Market Survey and Analysis Competition
-- Second Prize, 16th National College Student Mathematics Competition, Non-Mathematics Category A
-- Second Prize, 16th Shanghai College Student Mathematics Competition, Non-Mathematics Category A
-- Third Prize, 17th Shanghai College Student Computer Application Ability Competition
-- Eastern Regional Third Prize, 16th China College Students Service Outsourcing Innovation and Entrepreneurship Competition
-- Tongji University Outstanding Student
-- Tongji University Second-Class Scholarship (twice), Third-Class Scholarship, and Social Activities Scholarship
+- Tongji University Outstanding Student, Jan 2026
+- Outstanding Student Scholarship, Second Prize, Dec 2025 and Dec 2023
+- Outstanding Student Scholarship, Third Prize, Dec 2024
+- Social Activities Scholarship, Dec 2024
+- Third Prize, Shanghai College Student Computer Application Ability Competition, Jun 2025
+- National Third Prize, National College Student Market Survey and Analysis Competition, May 2025
+- Eastern Regional Third Prize, China College Students Service Outsourcing Innovation and Entrepreneurship Competition, May 2025
+- Second Prize, National College Student Mathematics Competition (Non-Mathematics Category A), Dec 2024
+- Third Prize, “Writing China Together” Tongji University Faculty and Student Calligraphy Competition, Sep 2024
+- Honorable Mention, Mathematical Contest in Modeling, May 2024
+- Second Prize, 9th Tongji University “Mission and Responsibility” Social Practice and Innovation Competition, Dec 2023
 
 ## Leadership and Service
 
