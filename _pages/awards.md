@@ -50,6 +50,11 @@ author_profile: true
   </div>
   <div class="award-item">
     <span class="award-item__icon"><i class="fas fa-trophy" aria-hidden="true"></i></span>
+    <span class="award-item__name">Shanghai First Prize, 15th National College Student Market Survey and Analysis Competition</span>
+    <time class="award-item__date" datetime="2025-05">May 2025</time>
+  </div>
+  <div class="award-item">
+    <span class="award-item__icon"><i class="fas fa-trophy" aria-hidden="true"></i></span>
     <span class="award-item__name">Eastern Regional Third Prize, China College Students Service Outsourcing Innovation and Entrepreneurship Competition</span>
     <time class="award-item__date" datetime="2025-05">May 2025</time>
   </div>
