@@ -348,68 +348,19 @@ html[data-theme="dark"] .music-card {
 }
 
 .music-card__cover {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
+  display: block;
+  width: 100%;
   aspect-ratio: 1 / 1;
-  padding: 1.05rem;
-  overflow: hidden;
-  color: #fff;
-  isolation: isolate;
+  margin: 0;
+  object-fit: cover;
+  background: var(--global-code-background-color);
+  transition: transform 0.35s ease, filter 0.35s ease;
 }
 
-.music-card__cover::before,
-.music-card__cover::after {
-  position: absolute;
-  content: "";
-  z-index: -1;
+.music-card:hover .music-card__cover {
+  transform: scale(1.025);
+  filter: saturate(1.05);
 }
-
-.music-card__cover::before {
-  inset: 13% 12%;
-  border: 1px solid rgba(255, 255, 255, 0.56);
-  border-radius: 50%;
-  transform: rotate(-18deg);
-}
-
-.music-card__cover::after {
-  width: 55%;
-  height: 55%;
-  top: -15%;
-  right: -11%;
-  border: 1.4rem solid rgba(255, 255, 255, 0.13);
-  border-radius: 50%;
-}
-
-.music-card__cover span {
-  font-family: "Arial Black", Impact, sans-serif;
-  font-size: clamp(1.25rem, 2.4vw, 1.85rem);
-  font-style: normal;
-  font-weight: 900;
-  letter-spacing: -0.075em;
-  line-height: 0.82;
-  text-transform: uppercase;
-}
-
-.music-card__cover i {
-  position: absolute;
-  top: 0.9rem;
-  right: 0.9rem;
-  font-family: ui-monospace, monospace;
-  font-size: 0.67rem;
-  font-style: normal;
-  letter-spacing: 0.08em;
-}
-
-.music-card--nonstop .music-card__cover { background: linear-gradient(145deg, #ff8eb4, #8d69d7 55%, #56bca4); }
-.music-card--dolphin .music-card__cover { background: linear-gradient(155deg, #72d7e8, #4198d0 56%, #5254ad); }
-.music-card--blue .music-card__cover { background: radial-gradient(circle at 72% 24%, #a4d0e9, transparent 22%), linear-gradient(145deg, #172e61, #477fb7); }
-.music-card--rhythm .music-card__cover { background: linear-gradient(140deg, #90c9a6, #cfaedb 50%, #f6b07f); }
-.music-card--jump .music-card__cover { background: linear-gradient(155deg, #111 0 48%, #ee5ca8 49% 64%, #171717 65%); }
-.music-card--famous .music-card__cover { background: linear-gradient(145deg, #102769, #2358b8 55%, #ef7f46); }
-.music-card--jennie .music-card__cover { background: radial-gradient(circle at 65% 30%, #c6002f, transparent 18%), linear-gradient(145deg, #17050a, #690c26); }
-.music-card--blossom .music-card__cover { background: radial-gradient(circle at 35% 35%, #fff0aa, transparent 18%), linear-gradient(145deg, #f08fb1, #a57dcc 58%, #74b8d3); }
-.music-card--supersonic .music-card__cover { background: linear-gradient(145deg, #f26475, #ffd761 48%, #50b992 49% 72%, #536bd0); }
 
 .music-card__body {
   padding: 0.85rem 0.95rem 0.95rem;
