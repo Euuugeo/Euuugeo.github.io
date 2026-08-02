@@ -329,12 +329,29 @@ html[data-theme="dark"] .award-item {
 }
 
 .music-card {
+  position: relative;
+  color: inherit;
+  text-decoration: none !important;
   overflow: hidden;
   border: 1px solid var(--global-border-color);
   border-radius: 0.9rem;
   background: color-mix(in srgb, var(--global-bg-color) 94%, white);
   box-shadow: 0 10px 28px rgba(16, 42, 67, 0.075);
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.music-card::after {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.82rem;
+  content: "QQ Music \25B6";
+  color: #12b86f;
+  font-size: 0.64rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 html[data-theme="dark"] .music-card {
@@ -345,6 +362,17 @@ html[data-theme="dark"] .music-card {
   transform: translateY(-4px);
   border-color: color-mix(in srgb, var(--global-base-color) 55%, var(--global-border-color));
   box-shadow: 0 16px 36px rgba(16, 42, 67, 0.13);
+}
+
+.music-card:hover::after,
+.music-card:focus-visible::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.music-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--global-base-color) 55%, transparent);
+  outline-offset: 3px;
 }
 
 .music-card__cover {
@@ -389,6 +417,7 @@ html[data-theme="dark"] .music-card {
 }
 
 .music-card__album {
+  padding-right: 4.6rem;
   color: var(--global-text-color-light);
   font-size: 0.73rem;
 }
