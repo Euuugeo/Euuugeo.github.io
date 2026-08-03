@@ -9,20 +9,8 @@ author_profile: true
 
 <div class="music-filters" aria-label="Filter songs by artist">
   <button class="music-filter is-active" type="button" data-artist="all" aria-pressed="true">All</button>
-  <button class="music-filter" type="button" data-artist="OH MY GIRL" aria-pressed="false">OH MY GIRL</button>
-  <button class="music-filter" type="button" data-artist="OH MY GIRL BANHANA" aria-pressed="false">OH MY GIRL BANHANA</button>
-  <button class="music-filter" type="button" data-artist="NMIXX" aria-pressed="false">NMIXX</button>
-  <button class="music-filter" type="button" data-artist="RED VELVET" aria-pressed="false">RED VELVET</button>
-  <button class="music-filter" type="button" data-artist="BLACKPINK" aria-pressed="false">BLACKPINK</button>
-  <button class="music-filter" type="button" data-artist="ALLDAY PROJECT" aria-pressed="false">ALLDAY PROJECT</button>
-  <button class="music-filter" type="button" data-artist="JENNIE" aria-pressed="false">JENNIE</button>
-  <button class="music-filter" type="button" data-artist="ClariS" aria-pressed="false">ClariS</button>
-  <button class="music-filter" type="button" data-artist="fromis_9" aria-pressed="false">fromis_9</button>
-  <button class="music-filter" type="button" data-artist="(G)I-DLE" aria-pressed="false">(G)I-DLE</button>
-  <button class="music-filter" type="button" data-artist="fripSide" aria-pressed="false">fripSide</button>
-  <button class="music-filter" type="button" data-artist="Mrs. GREEN APPLE" aria-pressed="false">Mrs. GREEN APPLE</button>
 </div>
-<p class="music-filter-status" aria-live="polite">Showing all 14 songs</p>
+<p class="music-filter-status" aria-live="polite">Showing 1-9 of 24 songs</p>
 
 <div class="music-grid" role="list">
   <a class="music-card" role="listitem" href="https://open.spotify.com/search/OH%20MY%20GIRL%20Nonstop" aria-label="Play OH MY GIRL - Nonstop on Spotify">
@@ -81,36 +69,132 @@ author_profile: true
     <img class="music-card__cover" src="/images/music/dance-hall.jpg" alt="Mrs. GREEN APPLE Dance Hall single cover" loading="lazy">
     <div class="music-card__body"><p class="music-card__artist">Mrs. GREEN APPLE</p><h2>Dance Hall</h2><p class="music-card__album">Dance Hall - Single / 2022</p></div>
   </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/Girls%27%20Generation%20Into%20the%20New%20World" aria-label="Play Girls' Generation - Into the New World on Spotify">
+    <img class="music-card__cover" src="/images/music/into-the-new-world.jpg" alt="Girls' Generation Into the New World album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">Girls' Generation</p><h2>Into the New World</h2><p class="music-card__album">다시 만난 세계 / 2007</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/Nami%20Tamaki%20Reborn" aria-label="Play Nami Tamaki - Reborn on Spotify">
+    <img class="music-card__cover" src="/images/music/reborn.jpg" alt="Nami Tamaki Reborn album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">Nami Tamaki</p><h2>Reborn</h2><p class="music-card__album">Reborn / 2024</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/TrySail%20Honto%20dayo" aria-label="Play TrySail - Honto dayo on Spotify">
+    <img class="music-card__cover" src="/images/music/honto-dayo.jpg" alt="TrySail Honto dayo album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">TrySail</p><h2>ホントだよ</h2><p class="music-card__album">コバルト / 2015</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/I.O.I%20Suddenly" aria-label="Play I.O.I - Suddenly on Spotify">
+    <img class="music-card__cover" src="/images/music/suddenly.jpg" alt="I.O.I Suddenly album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">I.O.I</p><h2>Suddenly</h2><p class="music-card__album">I.O.I : LOOP / 2026</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/NewJeans%20Supernatural" aria-label="Play NewJeans - Supernatural on Spotify">
+    <img class="music-card__cover" src="/images/music/supernatural.jpg" alt="NewJeans Supernatural album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">NewJeans</p><h2>Supernatural</h2><p class="music-card__album">Supernatural / 2024</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/IVE%20BLACKHOLE" aria-label="Play IVE - BLACKHOLE on Spotify">
+    <img class="music-card__cover" src="/images/music/blackhole.jpg" alt="IVE BLACKHOLE album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">IVE</p><h2>BLACKHOLE</h2><p class="music-card__album">REVIVE+ / 2026</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/KiiiKiii%20404%20New%20Era" aria-label="Play KiiiKiii - 404 (New Era) on Spotify">
+    <img class="music-card__cover" src="/images/music/404-new-era.jpg" alt="KiiiKiii 404 New Era album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">KiiiKiii</p><h2>404 (New Era)</h2><p class="music-card__album">Delulu Pack / 2026</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/LE%20SSERAFIM%20CRAZY" aria-label="Play LE SSERAFIM - CRAZY on Spotify">
+    <img class="music-card__cover" src="/images/music/crazy.jpg" alt="LE SSERAFIM CRAZY album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">LE SSERAFIM</p><h2>CRAZY</h2><p class="music-card__album">CRAZY / 2024</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/ILLIT%20NOT%20CUTE%20ANYMORE" aria-label="Play ILLIT - NOT CUTE ANYMORE on Spotify">
+    <img class="music-card__cover" src="/images/music/not-cute-anymore.jpg" alt="ILLIT NOT CUTE ANYMORE album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">ILLIT</p><h2>NOT CUTE ANYMORE</h2><p class="music-card__album">NOT CUTE ANYMORE / 2025</p></div>
+  </a>
+  <a class="music-card" role="listitem" href="https://open.spotify.com/search/DAVICHI%20TIME%20CAPSULE" aria-label="Play DAVICHI - TIME CAPSULE on Spotify">
+    <img class="music-card__cover" src="/images/music/time-capsule.jpg" alt="DAVICHI TIME CAPSULE album cover" loading="lazy">
+    <div class="music-card__body"><p class="music-card__artist">DAVICHI</p><h2>TIME CAPSULE</h2><p class="music-card__album">타임캡슐 / 2025</p></div>
+  </a>
 </div>
+
+<nav class="music-pagination" aria-label="Music pages"></nav>
 
 <script>
   (function () {
-    var buttons = Array.prototype.slice.call(document.querySelectorAll('.music-filter'));
+    var filters = document.querySelector('.music-filters');
     var cards = Array.prototype.slice.call(document.querySelectorAll('.music-card'));
     var status = document.querySelector('.music-filter-status');
+    var pagination = document.querySelector('.music-pagination');
+    var artists = [];
+    var selectedArtist = 'all';
+    var currentPage = 1;
+    var perPage = 9;
 
-    buttons.forEach(function (button) {
-      button.addEventListener('click', function () {
-        var selectedArtist = button.getAttribute('data-artist');
-        var visibleCount = 0;
-
-        buttons.forEach(function (item) {
-          var active = item === button;
-          item.classList.toggle('is-active', active);
-          item.setAttribute('aria-pressed', active ? 'true' : 'false');
-        });
-
-        cards.forEach(function (card) {
-          var artist = card.querySelector('.music-card__artist').textContent.trim();
-          var visible = selectedArtist === 'all' || artist === selectedArtist;
-          card.hidden = !visible;
-          if (visible) visibleCount += 1;
-        });
-
-        status.textContent = selectedArtist === 'all'
-          ? 'Showing all ' + visibleCount + ' songs'
-          : 'Showing ' + visibleCount + (visibleCount === 1 ? ' song by ' : ' songs by ') + selectedArtist;
-      });
+    cards.forEach(function (card) {
+      var artist = card.querySelector('.music-card__artist').textContent.trim();
+      card.setAttribute('data-artist', artist);
+      if (artists.indexOf(artist) === -1) artists.push(artist);
     });
+
+    artists.sort(function (a, b) { return a.localeCompare(b); });
+    artists.forEach(function (artist) {
+      var button = document.createElement('button');
+      button.className = 'music-filter';
+      button.type = 'button';
+      button.setAttribute('data-artist', artist);
+      button.setAttribute('aria-pressed', 'false');
+      button.textContent = artist;
+      filters.appendChild(button);
+    });
+
+    function makePageButton(label, page, disabled, active) {
+      var button = document.createElement('button');
+      button.className = 'music-page-button' + (active ? ' is-active' : '');
+      button.type = 'button';
+      button.textContent = label;
+      button.disabled = disabled;
+      if (active) button.setAttribute('aria-current', 'page');
+      button.addEventListener('click', function () {
+        currentPage = page;
+        render();
+        filters.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      return button;
+    }
+
+    function render() {
+      var matches = cards.filter(function (card) {
+        return selectedArtist === 'all' || card.getAttribute('data-artist') === selectedArtist;
+      });
+      var pageCount = Math.max(1, Math.ceil(matches.length / perPage));
+      currentPage = Math.min(currentPage, pageCount);
+      var start = (currentPage - 1) * perPage;
+      var end = Math.min(start + perPage, matches.length);
+
+      cards.forEach(function (card) { card.hidden = true; });
+      matches.slice(start, end).forEach(function (card) { card.hidden = false; });
+
+      status.textContent = matches.length
+        ? 'Showing ' + (start + 1) + '-' + end + ' of ' + matches.length + (selectedArtist === 'all' ? ' songs' : ' songs by ' + selectedArtist)
+        : 'No songs found';
+
+      pagination.innerHTML = '';
+      if (pageCount > 1) {
+        pagination.appendChild(makePageButton('Previous', currentPage - 1, currentPage === 1, false));
+        for (var page = 1; page <= pageCount; page += 1) {
+          pagination.appendChild(makePageButton(String(page), page, false, page === currentPage));
+        }
+        pagination.appendChild(makePageButton('Next', currentPage + 1, currentPage === pageCount, false));
+      }
+    }
+
+    filters.addEventListener('click', function (event) {
+      var button = event.target.closest('.music-filter');
+      if (!button) return;
+      selectedArtist = button.getAttribute('data-artist');
+      currentPage = 1;
+      Array.prototype.forEach.call(filters.querySelectorAll('.music-filter'), function (item) {
+        var active = item === button;
+        item.classList.toggle('is-active', active);
+        item.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+      render();
+    });
+
+    render();
   }());
 </script>
