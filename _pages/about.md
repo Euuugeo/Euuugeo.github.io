@@ -38,6 +38,7 @@ My work focuses on **building practical, reliable, and human-centered AI systems
 
 **University of Science and Technology of China**<br>
 M.Eng. in Software Engineering, Specialized Innovation Program<br>
+School of Software Engineering<br>
 Expected enrollment: September 2026
 
 **Tongji University**<br>

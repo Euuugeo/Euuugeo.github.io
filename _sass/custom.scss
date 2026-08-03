@@ -140,12 +140,16 @@ ol li {
 
 .author__name {
   color: var(--global-masthead-link-color);
+  font-size: 1.08rem;
   font-weight: 750;
   letter-spacing: -0.02em;
+  line-height: 1.25;
 }
 
 .author__bio {
   color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.48;
 }
 
 .author__urls a {
@@ -719,6 +723,14 @@ blockquote {
     height: 84px;
     border-radius: 0.5rem;
     object-fit: cover;
+  }
+
+  .author__name {
+    font-size: 1rem;
+  }
+
+  .author__bio {
+    font-size: 0.84rem;
   }
 }
 

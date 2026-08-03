@@ -10,6 +10,7 @@ author_profile: true
 ### University of Science and Technology of China
 
 M.Eng. in Software Engineering, Specialized Innovation Program<br>
+School of Software Engineering<br>
 Expected enrollment: September 2026
 
 ### Tongji University
