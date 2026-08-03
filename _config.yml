@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Customized in _sass/custom.scss
-title                    : "Richard Chen"
+title                    : "Euuugeo"
 title_separator          : "-"
-name                     : &name "Richard Chen"
-description              : &description "Richard Chen's academic portfolio: large language models, AI for Science, and affective computing"
+name                     : &name "Euuugeo"
+description              : &description "Euuugeo's academic portfolio: large language models, AI for Science, and affective computing"
 url                      : https://Euuugeo.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +24,7 @@ repository               : "Euuugeo/Euuugeo.github.io"
 author:
   # Biographic information
   avatar           : "eugeo.jpg"
-  name             : "Richard Chen"
+  name             : "Euuugeo"
   pronouns         : # example: "she/her"  
   bio              : "Large Language Models, AI for Science, and Affective Computing"
   location         : "Shanghai, China"
@@ -144,12 +144,12 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "eugeo.jpg" # Social media default site image
-og_description           : "Academic portfolio of Richard Chen" # Social media default site image description
+og_description           : "Academic portfolio of Euuugeo" # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person
-  name                   : "Richard Chen"
+  name                   : "Euuugeo"
   links:
     - "https://github.com/Euuugeo"
 

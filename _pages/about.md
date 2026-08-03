@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Richard Chen"
+title: "Hello, I'm Euuugeo"
 author_profile: true
 redirect_from:
   - /about/
@@ -44,8 +44,6 @@ Expected enrollment: September 2026
 **Tongji University**<br>
 B.Eng. in Software Engineering, College of Computer Science and Technology<br>
 August 2022 - June 2026
-
-Selected coursework includes Linear Algebra, Advanced Programming, Data Structures, Software Engineering, Discrete Mathematics, and Speech Recognition. English proficiency: CET-4 576 and CET-6 509.
 
 ## 🚀 Selected Projects
 
