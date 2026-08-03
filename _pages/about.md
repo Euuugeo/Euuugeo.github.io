@@ -52,7 +52,7 @@ Selected coursework includes Linear Algebra, Advanced Programming, Data Structur
 
 An emotional-support system that combines cognitive behavioral therapy (CBT) with large language models. I helped build a 2,000+ item multi-persona CBT-QA dataset, fine-tuned Qwen2.5-7B with LoRA for three distinct personas, and optimized inference latency to under 500 ms.
 
-[Explore the project](/portfolio/cbt-llm/)
+[Explore the project](/portfolio/cbt-llm/) · [View on GitHub](https://github.com/Euuugeo/PersonaCBT-LLM)
 
 ### Northern Hubei Dialect Speech Recognition
 

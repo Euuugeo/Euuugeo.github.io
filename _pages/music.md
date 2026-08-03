@@ -7,6 +7,23 @@ author_profile: true
 
 <p class="music-intro">A small playlist of songs I keep coming back to: bright melodies, bold production, and a little bit of dreaminess.</p>
 
+<div class="music-filters" aria-label="Filter songs by artist">
+  <button class="music-filter is-active" type="button" data-artist="all" aria-pressed="true">All</button>
+  <button class="music-filter" type="button" data-artist="OH MY GIRL" aria-pressed="false">OH MY GIRL</button>
+  <button class="music-filter" type="button" data-artist="OH MY GIRL BANHANA" aria-pressed="false">OH MY GIRL BANHANA</button>
+  <button class="music-filter" type="button" data-artist="NMIXX" aria-pressed="false">NMIXX</button>
+  <button class="music-filter" type="button" data-artist="RED VELVET" aria-pressed="false">RED VELVET</button>
+  <button class="music-filter" type="button" data-artist="BLACKPINK" aria-pressed="false">BLACKPINK</button>
+  <button class="music-filter" type="button" data-artist="ALLDAY PROJECT" aria-pressed="false">ALLDAY PROJECT</button>
+  <button class="music-filter" type="button" data-artist="JENNIE" aria-pressed="false">JENNIE</button>
+  <button class="music-filter" type="button" data-artist="ClariS" aria-pressed="false">ClariS</button>
+  <button class="music-filter" type="button" data-artist="fromis_9" aria-pressed="false">fromis_9</button>
+  <button class="music-filter" type="button" data-artist="(G)I-DLE" aria-pressed="false">(G)I-DLE</button>
+  <button class="music-filter" type="button" data-artist="fripSide" aria-pressed="false">fripSide</button>
+  <button class="music-filter" type="button" data-artist="Mrs. GREEN APPLE" aria-pressed="false">Mrs. GREEN APPLE</button>
+</div>
+<p class="music-filter-status" aria-live="polite">Showing all 14 songs</p>
+
 <div class="music-grid" role="list">
   <a class="music-card" role="listitem" href="https://open.spotify.com/search/OH%20MY%20GIRL%20Nonstop" aria-label="Play OH MY GIRL - Nonstop on Spotify">
     <img class="music-card__cover" src="/images/music/nonstop.jpg" alt="OH MY GIRL NONSTOP album cover" loading="lazy">
@@ -65,3 +82,35 @@ author_profile: true
     <div class="music-card__body"><p class="music-card__artist">Mrs. GREEN APPLE</p><h2>Dance Hall</h2><p class="music-card__album">Dance Hall - Single / 2022</p></div>
   </a>
 </div>
+
+<script>
+  (function () {
+    var buttons = Array.prototype.slice.call(document.querySelectorAll('.music-filter'));
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.music-card'));
+    var status = document.querySelector('.music-filter-status');
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        var selectedArtist = button.getAttribute('data-artist');
+        var visibleCount = 0;
+
+        buttons.forEach(function (item) {
+          var active = item === button;
+          item.classList.toggle('is-active', active);
+          item.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+
+        cards.forEach(function (card) {
+          var artist = card.querySelector('.music-card__artist').textContent.trim();
+          var visible = selectedArtist === 'all' || artist === selectedArtist;
+          card.hidden = !visible;
+          if (visible) visibleCount += 1;
+        });
+
+        status.textContent = selectedArtist === 'all'
+          ? 'Showing all ' + visibleCount + ' songs'
+          : 'Showing ' + visibleCount + (visibleCount === 1 ? ' song by ' : ' songs by ') + selectedArtist;
+      });
+    });
+  }());
+</script>

@@ -25,6 +25,8 @@ August 2022 - June 2026
 
 ### Multi-Persona LLM for Emotional Support
 
+[GitHub Repository](https://github.com/Euuugeo/PersonaCBT-LLM)
+
 **Core Technical Contributor** · November 2024 - August 2025
 
 - Combined cognitive behavioral therapy (CBT) with large language models to build an emotional-support system.

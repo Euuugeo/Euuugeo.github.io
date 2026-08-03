@@ -13,6 +13,8 @@ preview_images:
 
 This project explores accessible and scalable emotional support by combining the structured intervention process of cognitive behavioral therapy (CBT) with large language models.
 
+[View PersonaCBT-LLM on GitHub](https://github.com/Euuugeo/PersonaCBT-LLM){: .btn .btn--primary }
+
 <div class="project-gallery">
   <figure>
     <img src="/images/projects/cbt-architecture.png" alt="Architecture for constructing the PersonaCBT-QA dataset and PersonaCBT-LLM">
