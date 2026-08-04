@@ -22,6 +22,19 @@ August 2022 - June 2026
 - English proficiency: CET-4 576, CET-6 509
 - Selected coursework: Linear Algebra, Advanced Programming, Data Structures, Software Engineering, Discrete Mathematics, and Speech Recognition
 
+## 💼 Internship Experience
+
+### Early-Stage Technology Startup
+
+**AI Engineering Intern** · July 2026 - August 2026
+
+- Built an enterprise-grade agent orchestration framework in Java and Spring Boot, using rule-based pre-filtering and LLM function calling for hierarchical intent routing.
+- Enabled dynamic agent selection by release status, permission group, business type, and regular-expression rules; implemented schema generation, parameter validation, iterative tool calling, unknown-query fallback, JSON workflow orchestration, database integration, and RAG.
+- Developed **DefectTrack-V**, an Electron and Vue 3 desktop system with a local FastAPI service for CCTV pipeline inspection video analysis.
+- Integrated a custom **E4 YOLO instance segmentation model** and Hybrid SORT for defect detection, tracking, key-frame extraction, human review, annotation correction, and report generation.
+- Persisted projects, tasks, annotations, reviews, and reports in SQLite, and generated browser-compatible H.264 MP4 caches for AVI and other video formats.
+- Ran E4 at 960-pixel resolution, obtaining approximately **0.50 Mask mAP50** and **0.50 Box mAP50** in the current training run.
+
 ## 🔬 Research and Project Experience
 
 ### Multi-Persona LLM for Emotional Support

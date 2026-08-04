@@ -45,6 +45,19 @@ Expected enrollment: September 2026
 B.Eng. in Software Engineering, College of Computer Science and Technology<br>
 August 2022 - June 2026
 
+## 💼 Internship Experience
+
+### Early-Stage Technology Startup
+
+**AI Engineering Intern** · July 2026 - August 2026
+
+- Built an enterprise-grade agent orchestration framework in Java and Spring Boot, featuring hierarchical intent routing through rule-based pre-filtering and LLM function calling. The framework dynamically selects agents by release status, permission group, business type, and regular-expression rules.
+- Implemented automatic agent schema generation, parameter validation, iterative tool calling, unknown-query fallback, JSON workflow orchestration, database integration, and retrieval-augmented generation (RAG).
+- Developed **DefectTrack-V**, a desktop analysis system for CCTV pipeline inspection videos using Electron, Vue 3, and a local FastAPI inference service.
+- Integrated a custom **E4 YOLO instance segmentation model** with Hybrid SORT to support defect detection and tracking, key-frame extraction, human review, annotation correction, and project report generation.
+- Built a local SQLite data pipeline for projects, analysis tasks, annotations, review results, and reports, with H.264 MP4 caching for AVI and other inspection-video formats.
+- Used a 960-pixel training and inference setup for E4, achieving approximately **0.50 Mask mAP50** and **0.50 Box mAP50** on the current training run.
+
 ## 🚀 Selected Projects
 
 ### Multi-Persona LLM for Emotional Support
