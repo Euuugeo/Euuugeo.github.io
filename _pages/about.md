@@ -47,12 +47,13 @@ August 2022 - June 2026
 
 ## 💼 Internship Experience
 
-### Early-Stage Technology Startup
+### InfoWater
 
-**AI Engineering Intern** · July 2026 - August 2026
+**Agent & Computer Vision Algorithm Engineer Intern** · July 2026 - August 2026
 
-- Built an enterprise-grade agent orchestration framework in Java and Spring Boot, featuring hierarchical intent routing through rule-based pre-filtering and LLM function calling. The framework dynamically selects agents by release status, permission group, business type, and regular-expression rules.
-- Implemented automatic agent schema generation, parameter validation, iterative tool calling, unknown-query fallback, JSON workflow orchestration, database integration, and retrieval-augmented generation (RAG).
+- Designed and contributed to a Function Calling-based Agent execution loop that automatically converts business Agents into JSON Schema tools, enabling model-driven tool selection, argument parsing, execution-result feedback, and multi-turn reasoning. Added turn limits and call-chain logging to improve controllability.
+- Designed a hybrid Supervisor router that first prunes candidate Agents by release status, business domain, user permissions, and regular-expression rules, then uses an LLM to produce a structured invocation AST. Added similar-task merging and argument validation to reduce misrouting and context overhead.
+- Built a JSON graph workflow engine supporting LLM, Agent, condition, script, Python, stored-procedure, n8n, and human-in-the-loop nodes, including a **Graph-as-Tool** capability that dynamically wraps subgraphs as LLM tools.
 - Developed **DefectTrack-V**, a desktop analysis system for CCTV pipeline inspection videos using Electron, Vue 3, and a local FastAPI inference service.
 - Integrated a custom **E4 YOLO instance segmentation model** with Hybrid SORT to support defect detection and tracking, key-frame extraction, human review, annotation correction, and project report generation.
 - Built a local SQLite data pipeline for projects, analysis tasks, annotations, review results, and reports, with H.264 MP4 caching for AVI and other inspection-video formats.
